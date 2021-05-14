@@ -137,6 +137,8 @@ class GoF(object):
         imageio.mimsave('movie.gif', self.images)
 
 grid = GoF(400)
+"""===========================================
+        YOUR PIXELS HERE"""
 grid.algorithm([
     (random.choice(range(400,600)), random.choice(range(400,600))) for i in range(30000)])
 grid.animate()
